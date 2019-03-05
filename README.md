@@ -1,5 +1,5 @@
 ## 💫 danielrangel.io
 
-Personal site using Gatsby
+Updating personal site to Gatsby
 
 Under construction :')
