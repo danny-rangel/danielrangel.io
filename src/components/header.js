@@ -4,7 +4,7 @@ import React from "react"
 import styled from 'styled-components';
 // import Image from '../components/image';
 
-import avi from '../images/avi.jpg';
+import avi from "../images/avi.jpg";
 
 const HeaderWrapper = styled.div`
   margin-bottom: 1.45rem;
