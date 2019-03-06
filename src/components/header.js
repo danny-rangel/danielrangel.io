@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import styled from 'styled-components';
 
-import avi from "../images/avi.JPG";
+import avi from "../images/avi.jpg";
 
 const HeaderWrapper = styled.div`
   margin-bottom: 1.45rem;
@@ -24,7 +24,7 @@ const Header = ({ siteTitle }) => (
             padding: `0px 1rem`,
             paddingTop: 0,
           }}>
-        <img alt="avi" src={Image} style={{width: '60px', borderRadius: '100%', margin: 0}}></img>
+        <img alt="avi" src={avi} style={{width: '60px', borderRadius: '100%', margin: 0}}></img>
         <div style={{display: 'inline-block', padding: '0 0 0 1rem'}}>
           <h2 style={{ margin: 0 }}>
             <Link
