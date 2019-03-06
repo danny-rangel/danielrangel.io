@@ -5,7 +5,7 @@ date: "2019-03-05"
 description: "The next big thing"
 ---
 
-It's a bittersweet feeling when you find an incredible artist with only a couple of recorded music.
+It's a bittersweet feeling when you find an incredible artist with only a couple of recorded songs
 
 <!-- <a href="http://www.youtube.com/watch?feature=player_embedded&v=0v2nhMQmntE
 " target="_blank"><img src="http://img.youtube.com/vi/0v2nhMQmntE/0.jpg" 
