@@ -46,9 +46,9 @@ const BlogListing = () => (
     render={({allMarkdownRemark}) => (
         allMarkdownRemark.edges.map(edge => (
             <Post key={edge.node.frontmatter.slug}>
-                <Link to={`/blog${edge.node.frontmatter.slug}`}>
-                    <h2>{edge.node.frontmatter.title}</h2>
-                </Link>
+                <h2><Link to={`/blog${edge.node.frontmatter.slug}`}>
+                    {edge.node.frontmatter.title}
+                </Link></h2>
                 <p>{edge.node.frontmatter.date}</p>
                 <p>{edge.node.frontmatter.description}</p>
             </Post>

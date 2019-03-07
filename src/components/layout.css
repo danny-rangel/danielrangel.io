@@ -6,6 +6,7 @@ html {
   -webkit-text-size-adjust: 100%;
   min-height: 100vh;
   background: #19181A;
+  /* background: #0b0300; */
 }
 body {
   margin: 0;
