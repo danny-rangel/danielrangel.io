@@ -37,7 +37,7 @@ const Header = ({ siteTitle }) => (
               {siteTitle}
             </Link>
           </h2>
-          <h5 style={{ color: '#FFCCBC', margin: 0}}>I create through code and music</h5>
+          <h5 style={{ color: '#FFCCBC', margin: 0}}>Creating with code and music</h5>
         </div>
       </div>
     </HeaderContainer>
