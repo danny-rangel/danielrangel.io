@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 import gif from '../images/giphy.gif'
 
 const NotFoundPage = () => (
-  <div style={{ margin: 'auto', maxWidth: '42rem', padding: '2rem 0.5rem'}}>
+  <div style={{ margin: 'auto', maxWidth: '42rem', padding: '2rem 0'}}>
     <Layout>
       <SEO title="404: Not found" />
       <div style={{padding: '1rem'}}>
