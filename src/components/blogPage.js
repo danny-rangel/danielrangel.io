@@ -7,7 +7,7 @@ import Layout from "../components/layout"
 
 
 const BlogPage = () => (
-    <div style={{ margin: 'auto', maxWidth: '42rem', padding: '2rem 0.5rem', minHeight: '100vh'  }}>
+    <div style={{ margin: 'auto', maxWidth: '42rem', padding: '2rem 0', minHeight: '100vh'  }}>
     <SEO title="Blog" />
         <Layout>
             <BlogListing />
