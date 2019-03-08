@@ -7,7 +7,7 @@ export default class blogLayout extends Component {
         const { markdownRemark } = this.props.data;
 
         return (
-          <div style={{margin: 'auto', maxWidth: '42rem', padding: '2rem 0.5rem', minHeight: '100vh'   }}>
+          <div style={{margin: 'auto', maxWidth: '42rem', padding: '2rem 0', minHeight: '100vh'   }}>
             <Layout>
               <div style={{padding: '1rem'}}>
                 <h1 style={{color: '#FFCCBC'}}>{markdownRemark.frontmatter.title}</h1>
