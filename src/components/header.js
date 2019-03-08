@@ -21,7 +21,7 @@ const Header = ({ siteTitle }) => (
       <div style={{
             margin: `0 auto`,
             maxWidth: 960,
-            padding: `0px 1rem`,
+            padding: `0px 0.8rem`,
             paddingTop: 0,
           }}>
         <img alt="avi" src={avi} style={{width: '60px', borderRadius: '100%', margin: 0}}></img>
