@@ -9,19 +9,26 @@ exports.createPages = ({ graphql, actions }) => {
         component: path.resolve('./src/components/blogPage.js')
     });
 
-    return new Promise((resolve, reject) => {
+    createPage({
+        path: `/projects`,
+        component: path.resolve('./src/components/projectPage.js')
+    });
+
+    let promise1 = new Promise((resolve, reject) => {
         graphql(`
             {
-                allMarkdownRemark{
-                    edges {
-                        node {
-                    frontmatter {
-                        slug
-                    }
-                    }
+            allMarkdownRemark(
+              filter: { fileAbsolutePath: {regex : "\/blog/"} }
+            ) {
+              edges {
+                node {
+                  frontmatter {
+                    slug
+                  }
                 }
-                }
+              }
             }
+          }
         `).then(results => {
             results.data.allMarkdownRemark.edges.forEach(({node}) => {
                 createPage({
@@ -35,6 +42,37 @@ exports.createPages = ({ graphql, actions }) => {
             resolve();
         })
     });
-    
+
+    let promise2 = new Promise((resolve, reject) => {
+        graphql(`
+            {
+            allMarkdownRemark(
+              filter: { fileAbsolutePath: {regex : "\/projects/"} }
+            ) {
+              edges {
+                node {
+                  frontmatter {
+                    slug
+                  }
+                }
+              }
+            }
+          }
+        `).then(results => {
+            results.data.allMarkdownRemark.edges.forEach(({node}) => {
+                createPage({
+                    path: `/projects${node.frontmatter.slug}`,
+                    component: path.resolve('./src/components/projectLayout.js'),
+                    context: {
+                        slug: node.frontmatter.slug,
+                    }
+                });
+            })
+            resolve();
+        })
+    });
+
+
+    return Promise.all([promise1, promise2]);
     
 }

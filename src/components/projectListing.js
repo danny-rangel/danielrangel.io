@@ -2,13 +2,13 @@ import React from "react"
 import { Link, graphql, StaticQuery } from "gatsby"
 import styled from 'styled-components';
 
-const LISTING_QUERY = graphql`
-    query BlogPostListing {
+const PROJECT_LISTING_QUERY = graphql`
+    query ProjectListing {
         allMarkdownRemark (sort: {
             order: DESC,
                     fields: [frontmatter___date]	
-            }, 
-            filter: { fileAbsolutePath: {regex : "\/blog/"} }) {
+            },
+            filter: { fileAbsolutePath: {regex : "\/projects/"} }), {
             edges {
                 node {
                     excerpt
@@ -24,7 +24,7 @@ const LISTING_QUERY = graphql`
     }
 `
 
-const Post = styled.article`
+const Project = styled.article`
     padding: 1rem;
     border-radius: 4px;
     a {
@@ -41,21 +41,20 @@ const Post = styled.article`
     }
 `
 
-const BlogListing = () => (
+const ProjectListing = () => (
   <StaticQuery 
-    query={LISTING_QUERY}
+    query={PROJECT_LISTING_QUERY}
     render={({allMarkdownRemark}) => (
         allMarkdownRemark.edges.map(edge => (
-            <Post key={edge.node.frontmatter.slug}>
-                <h2><Link to={`/blog${edge.node.frontmatter.slug}`}>
+            <Project key={edge.node.frontmatter.slug}>
+                <h2><Link to={`/projects${edge.node.frontmatter.slug}`}>
                     {edge.node.frontmatter.title}
                 </Link></h2>
-                <p>{edge.node.frontmatter.date}</p>
                 <p>{edge.node.frontmatter.description}</p>
-            </Post>
+            </Project>
         ))
     )}
   />
 )
 
-export default BlogListing;
+export default ProjectListing;

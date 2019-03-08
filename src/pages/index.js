@@ -13,11 +13,11 @@ const IndexPage = () => (
       <SEO title="Home" />
       <div style={{padding: '1rem'}}>
         <h2 style={{margin: '0 0 10px'}}><Link to="/projects" style={{textDecoration: 'none', color: '#FFCCBC'}}>Projects</Link></h2>
-        <p> A collection of some of the projects I've worked on</p>
+        <p> A collection of some of my personal projects</p>
         <h2 style={{margin: '0 0 10px'}}><Link to="/blog" style={{textDecoration: 'none', color: '#FFCCBC'}}>Blog</Link></h2>
         <p>Posts about music, tech, and life</p>
         <h2 style={{margin: '0 0 10px'}}><Link to="/music" style={{textDecoration: 'none', color: '#FFCCBC'}}>Music</Link></h2>
-        <p>Recorded music by yours truly</p>
+        <p>Recordings by yours truly</p>
       </div>
     </Layout>
     <footer style={{color: '#FFCCBC', bottom: 0, width: '100%', textAlign: 'center', left: 0, position: 'absolute'}}>

@@ -35,6 +35,13 @@ module.exports = {
         name: 'posts'
       }
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/pages/projects`,
+        name: 'projects'
+      }
+    },
     'gatsby-transformer-remark',
     'gatsby-plugin-netlify'
     // this (optional) plugin enables Progressive Web App + Offline functionality
