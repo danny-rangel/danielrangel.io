@@ -8,7 +8,7 @@ import Layout from "../components/layout"
 
 
 const IndexPage = () => (
-  <div style={{ margin: 'auto', maxWidth: '42rem', padding: '2rem 0.5rem', minHeight: '100vh' }}>
+  <div style={{ margin: 'auto', maxWidth: '42rem', padding: '2rem 0', minHeight: '100vh' }}>
     <Layout>
       <SEO title="Home" />
       <div style={{padding: '1rem'}}>
