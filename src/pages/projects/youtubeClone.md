@@ -2,7 +2,7 @@
 slug: "/metube"
 title: "Metube"
 date: "2019-03-01"
-description: "React, Javascript, CSS, Youtube Data API"
+description: "React, Javascript, Semantic UI, CSS, Youtube Data API"
 ---
 ---
 
