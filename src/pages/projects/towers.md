@@ -13,7 +13,7 @@ Users that are *"listening"* to you will see your posts pop up on their feed, an
 The intent of the app wasn't really so much to be a music player; it's more focused on the sharing aspect. The player was just a side effect as the project developed. Finishing up some last minute stuff so hope to have the full app available to everyone soon! Check out my personal page for a glimpse in the meantime!
 
 ---
-[Demo](https://pure-refuge-18900.herokuapp.com/dannyrangel)
+[Demo](towersmusic.io/dannyrangel)
 ---
 [Code](https://github.com/danny-rangel/towers)
 ---
