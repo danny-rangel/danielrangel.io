@@ -64,7 +64,7 @@ Most people don't like to feel sad. 
 I purposely induce it on myself at times. 
 
 
-I know what you're thinking; that is insane! Why would you ever do such a thing to yourself! I can explain.
+I know what you're thinking. "That is insane! Why would you ever do such a thing to yourself?!" I can explain.
 
 I think it is absolutely beautiful that something as simple as a song, put together by someone that you've never met, can move you to tears. Whether they are tears of joy or of pain, it doesn't matter. *IT MOVES YOU.* I think that is way more insane than me manipulating my emotions. Heh. I like to feel. It makes you...well...feel alive. Am I rambling? Yes.
 
