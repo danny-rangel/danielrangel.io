@@ -51,7 +51,11 @@ Dare I say more?
 
 At first listen, "Fair-Weather Friend" was immense. There are so many things I could say about this song. The chorus has a progression that is just…perfect. Pair that up with a heart tugging falsetto and you have yourself a song that will make you **UGLY CRY**.
 
+___
+
 <iframe width="100%" height="20" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/320866635&color=%23ffccbc&inverse=true&auto_play=false&show_user=true"></iframe>
+
+___
 
 
 Most albums that I cherish have some deep connections to past memories or people. I'm sure that I'm definitely not alone in that regard since I assume a good amount of people enjoy music, not just for listening pleasures, but also for the complex range of emotions a three to four minute song can trigger. At least for me, I can almost predict the type of mood a song will put me in. Have I tapped into some greater power that I can control? Who knows! However, I tend to abuse it more than I probably should.
