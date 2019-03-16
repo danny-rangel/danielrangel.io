@@ -2,7 +2,7 @@
 slug: "/introduction"
 title: "Introduction"
 date: "2019-03-05"
-description: "Fair warning"
+description: "Warning"
 ---
 ---
 

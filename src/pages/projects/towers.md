@@ -1,8 +1,8 @@
 ---
 slug: "/towers"
 title: "Towers Music"
-date: "2019-03-03"
-description: "React, Redux, Javascript, Node, Express, MongoDB, Apple Musickit API, Socket.io, Semantic UI, CSS"
+date: "2019-03-04"
+description: "React, Redux, Javascript, Node, Express, MongoDB, Apple Musickit API, Semantic UI, CSS"
 ---
 ---
 

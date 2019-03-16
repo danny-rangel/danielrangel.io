@@ -2,7 +2,7 @@
 slug: "/yebba"
 title: "Yebba"
 date: "2019-03-08"
-description: "The next big thing"
+description: "A queen in the making"
 ---
 ---
 It's a great feeling when you find an incredible artist with a discography amounting to only *one* single. That's right, one.
