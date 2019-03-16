@@ -13,7 +13,7 @@ You're probably wondering how I can even judge an artist with only a couple reco
     <iframe width="420" height="315" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/RXwE1G7_U9M" frameborder="0" allowfullscreen></iframe>
 </div>
 
-**I'M NOT CRYING, YOU ARE.**
+**I'M NOT CRYING, YOU'RE CRYING.**
 
 Abbey Smith, better known as Yebba, is an up and coming artist who's been praised by high profile names for her soulful chops that have captivated listeners from all over. She recorded a song with Sam Smith for his latest album, appeared on some live PJ Morton music, and even backed Chance the Rapper during a spectacular SNL performance of "Same Drugs", where I would argue she _stole_ the show. But what's intrigued me more about Yebba is not just her vocal chops, but the amount of adversity that she's faced.
 
