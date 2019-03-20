@@ -19,7 +19,7 @@ const IndexPage = () => (
         <h2 style={{margin: '0 0 10px'}}><Link to="/music" style={{textDecoration: 'none', color: '#FFCCBC'}}>Music</Link></h2>
         <p>Recordings by yours truly</p>
         <h2 style={{margin: '0 0 10px'}}><Link to="/recommendations" style={{textDecoration: 'none', color: '#FFCCBC'}}>Recommendations</Link></h2>
-        <p>Some random stuff I've liked</p>
+        <p>List of recommendations</p>
       </div>
     </Layout>
     <footer style={{color: '#FFCCBC', bottom: 0, width: '100%', textAlign: 'center', left: 0, position: 'absolute'}}>

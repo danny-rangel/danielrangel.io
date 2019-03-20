@@ -29,7 +29,7 @@ const bookCollage = () => (
     render={({allFile}) => (
       allFile.edges.map(edge => (
           <div key={edge.node.id}>
-            <Img style={{border: '1px solid black', boxShadow: '0px 1px 2px #FFCCBC'}} fluid={edge.node.childImageSharp.fluid}></Img>
+            <Img className="bookImage" style={{border: '1px solid black', boxShadow: '0px 1px 2px #FFCCBC'}} fluid={edge.node.childImageSharp.fluid}></Img>
           </div>
       ))
     )}

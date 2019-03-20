@@ -13,7 +13,7 @@ const Books = () => (
         <div style={{padding: '1rem'}} >
         <h1 style={{color: '#FFCCBC'}} >Books</h1>
           <div className="booksContainer">
-            <BookCollage />
+            <BookCollage className="item" />
           </div>
           <div style={{color: '#FFCCBC', marginTop: '30px'}}>
             <Link to="/" style={{color: '#FFCCBC'}}>Back</Link>
