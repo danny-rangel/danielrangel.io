@@ -14,7 +14,7 @@ description: "Can we please talk about this performance"
 
 ---
 
-Nao is a singer/songwriter from London known for her sugar coated voice and blend of funk, electronic, r&b...you get the point. She has a unique sound! She's been steadily giving us more music in the form of EP's and a couple albums, and her most recent album "Saturn" was definitely a gem.
+Nao is a singer/songwriter from London known for her sugar coated voice and blend of funk, electronic, r&b...you get the point. She has a unique sound! She's been steadily giving us more music in the form of EPs and a couple albums, and her most recent album "Saturn" was definitely a gem.
 
 "Saturn" is based on the Saturn return, which is astrology mumbo jumbo for a point when the planet Saturn returns to the same spot it was at your birth. It technically doesn't reach the same spot until around 29 or 30 years old, but the so called effects of reaching adulthood, being faced with responsilbilities, challenges, etc. are said to begin around the age of 27. I'm getting pretty close to that age, so I'll be sure to save my quarter life crisis until then and play this album in full while questioning my interpersonal relationships. 
 
