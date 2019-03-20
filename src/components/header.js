@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import styled from 'styled-components';
 import Img from "gatsby-image"
+import avi from '../images/profilepic.jpg';
 
 const HeaderWrapper = styled.div`
   margin-bottom: 1.45rem;
@@ -14,19 +15,19 @@ const HeaderContainer = styled.div`
   padding: 0.8rem;
 `;
 
-const AVI_QUERY = graphql`
-{
-  file(relativePath: {
-		regex: "/profilepic/"
-  }) {
-		childImageSharp {
-			fluid(maxWidth: 200) {
-				...GatsbyImageSharpFluid
-      }
-    }
-  }
-}
-`
+// const AVI_QUERY = graphql`
+// {
+//   file(relativePath: {
+// 		regex: "/profilepic/"
+//   }) {
+// 		childImageSharp {
+// 			fluid(maxWidth: 200) {
+// 				...GatsbyImageSharpFluid
+//       }
+//     }
+//   }
+// }
+// `
 
 const Header = ({ siteTitle }) => (
   <HeaderWrapper>
@@ -37,10 +38,11 @@ const Header = ({ siteTitle }) => (
             padding: `0px 0.8rem`,
             paddingTop: 0,
           }}>
-        <StaticQuery
+        {/* <StaticQuery
           query={AVI_QUERY}
           render={data => <Img className="aviPhoto" fluid={data.file.childImageSharp.fluid} />}
-        />
+        /> */}
+        <img className="aviPhoto" src={avi} ></img>
         <div style={{display: 'inline-block', padding: '0 0 0 1rem'}}>
           <h2 style={{ margin: 0 }}>
             <Link
