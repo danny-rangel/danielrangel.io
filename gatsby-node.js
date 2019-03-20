@@ -10,6 +10,11 @@ exports.createPages = ({ graphql, actions }) => {
     });
 
     createPage({
+      path: `/recommendations`,
+      component: path.resolve('./src/components/books.js')
+    });
+
+    createPage({
         path: `/projects`,
         component: path.resolve('./src/components/projectPage.js')
     });

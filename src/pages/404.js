@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import gif from '../images/giphy.gif'
 
+
 const NotFoundPage = () => (
   <div style={{ margin: 'auto', maxWidth: '42rem', padding: '2rem 0'}}>
     <Layout>
