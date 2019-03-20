@@ -25,7 +25,7 @@ Nao is a singer/songwriter from London known for her sugar coated voice and blen
 I've been playing this performance nonstop for the last week now. Nao performs two tracks from her album accompanied by a killer band and string section. If you know me, you know I _love_ strings, so that little interlude in between the two songs made me super happy.
 
 
-She's joined by Kwabs who sings in the studio version of the song "Saturn". His voice is something that's hard to replicate, so it really could not have been done any other way. I'm sure you did a double take if this was your first time hearing his voice. Check him out later if you have a chance because he has some good music and spectactular pipes!
+She's joined by Kwabs who sings in the studio version of the song "Saturn". His voice is something that's hard to replicate, so it really could not have been done any other way. I'm sure you did a double take if this was your first time hearing his voice. Check him out later if you have a chance because he has some good music and killer pipes!
 
 
 If you're still just reading this and haven't pressed play yet, __WHAT ARE YOU WAITING FOR?__
