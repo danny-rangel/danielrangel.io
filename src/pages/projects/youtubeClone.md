@@ -2,16 +2,16 @@
 slug: "/viewtube"
 title: "ViewTube"
 date: "2019-03-02"
-description: "React, Javascript, Semantic UI, CSS, Youtube Data API"
+description: "React, Javascript, Material UI, CSS, Youtube Data API"
 ---
 ---
 
-You guessed it! This project is a youtube clone. I implemented video searching functionality with the Youtube API and some page routing.
+You guessed it! This project is a YouTube clone. I implemented video searching functionality with the Youtube API and some page routing. Done completely with React Hooks and styled with Material UI.
 
 Try searching for your favorite video!
 
 ---
-[Demo](https://secret-spire-46553.herokuapp.com/)
+[Demo](https://lit-reef-94108.herokuapp.com/)
 ---
-[Code](https://github.com/danny-rangel/youtube-clone)
+[Code](https://github.com/danny-rangel/viewtube)
 ---
