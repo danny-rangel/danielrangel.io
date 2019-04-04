@@ -6,7 +6,7 @@ description: "React, Javascript, Material UI, CSS, Youtube Data API"
 ---
 ---
 
-You guessed it! This project is a YouTube clone. I implemented video searching functionality with the Youtube API and some page routing. Done completely with React Hooks and styled with Material UI.
+You guessed it! This project is a YouTube clone. I implemented video searching functionality with the Youtube API and tried to somewhat recreate the main UI of youtube. Done completely with React Hooks and styled with Material UI.
 
 Try searching for your favorite video!
 

@@ -8,12 +8,12 @@ description: "React, Redux, Javascript, Node, Express, MongoDB, Apple Musickit A
 
 This is my biggest project to date. Towers is a social media music application. The purpose of the app is to allow users to create a profile and share their favorite songs with others. 
 
-Users that are *"listening"* to you will see your posts pop up on their feed, and they can interact with your post by listening to the song within the app, or liking the post. You can listen to a full song if you have an Apple Music account by logging in within the app, however you can still listen to a thirty second preview even if you don't have an Apple Music account. 
+Users that are *"listening"* to you will see your posts pop up on their feed, and they can interact with your post by listening to the song within the app, or liking the post. You can listen to a full song if you have an Apple Music account by logging in within the app. If you don't have an Apple Music account, you can still use the app! You will just listen to a sample of the song when you press play instead of the entire song.
 
-The intent of the app wasn't really so much to be a music player; it's more focused on the sharing aspect. The player was just a side effect as the project developed. The app is currently invite only while I work on bugs and last minute features, but you can check out my own Towers page for a glimpse in the meantime!
+The intent of the app wasn't really so much to be a music player; it's more focused on the sharing aspect. The player was just a side effect as the project developed. Sign up with your Google account and follow me!
 
 ---
-[Demo](https://towersmusic.io/dannyrangel)
+[towersmusic.io](https://towersmusic.io/dannyrangel)
 ---
 [Code](https://github.com/danny-rangel/towers)
 ---
