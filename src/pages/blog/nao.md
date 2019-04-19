@@ -19,7 +19,7 @@ Nao is a singer/songwriter from London known for her sugar coated voice and blen
 "Saturn" is based on the Saturn return, which is astrology mumbo jumbo for a point when the planet Saturn returns to the same spot it was at your birth. It technically doesn't reach the same spot until around 29 or 30 years old, but the so called effects of reaching adulthood, being faced with responsilbilities, challenges, etc. are said to begin around the age of 27. I'm getting pretty close to that age, so I'll be sure to save my quarter life crisis until then and play this album in full while questioning my interpersonal relationships. 
 
 <div style="text-align: center;" >
-    <img style="width: 400px;" src="https://i.imgur.com/YrBbnZ9.jpg" alt="sadcat" />
+    <img style="width: 400px;" src="https://i.imgur.com/nr9KSJS.jpg" alt="sadcat" />
 </div>
 
 I've been playing this performance nonstop for the last week now. Nao performs two tracks from her album accompanied by a killer band and string section. If you know me, you know I _love_ strings, so that little interlude in between the two songs made me super happy.
