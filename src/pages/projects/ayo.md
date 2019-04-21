@@ -1,7 +1,7 @@
 ---
 slug: "/ayo"
 title: "Ayo"
-date: "2019-03-03"
+date: "2019-03-05"
 description: "React, Javascript, Firebase, CSS"
 ---
 ---
