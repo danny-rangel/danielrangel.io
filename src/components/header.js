@@ -1,8 +1,8 @@
-import { Link, graphql, StaticQuery } from "gatsby"
+import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import styled from 'styled-components';
-import Img from "gatsby-image"
+// import Img from "gatsby-image"
 import avi from '../images/profilepic.jpg';
 
 const HeaderWrapper = styled.div`
@@ -42,7 +42,7 @@ const Header = ({ siteTitle }) => (
           query={AVI_QUERY}
           render={data => <Img className="aviPhoto" fluid={data.file.childImageSharp.fluid} />}
         /> */}
-        <img className="aviPhoto" src={avi} ></img>
+        <img className="aviPhoto" alt="avatar" src={avi} ></img>
         <div style={{display: 'inline-block', padding: '0 0 0 1rem'}}>
           <h2 style={{ margin: 0 }}>
             <Link

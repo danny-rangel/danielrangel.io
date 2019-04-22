@@ -14,12 +14,12 @@ const IndexPage = () => (
       <div style={{padding: '1rem'}}>
         <h2 style={{margin: '0 0 10px'}}><Link to="/projects" style={{textDecoration: 'none', color: '#FFCCBC'}}>Projects</Link></h2>
         <p> A collection of some personal projects</p>
-        <h2 style={{margin: '0 0 10px'}}><Link to="/blog" style={{textDecoration: 'none', color: '#FFCCBC'}}>Blog</Link></h2>
-        <p>Posts about music, tech, and life</p>
+        {/* <h2 style={{margin: '0 0 10px'}}><Link to="/blog" style={{textDecoration: 'none', color: '#FFCCBC'}}>Blog</Link></h2>
+        <p>Posts about music, tech, and life</p> */}
         <h2 style={{margin: '0 0 10px'}}><Link to="/music" style={{textDecoration: 'none', color: '#FFCCBC'}}>Music</Link></h2>
         <p>Recordings by yours truly</p>
-        <h2 style={{margin: '0 0 10px'}}><Link to="/recommendations" style={{textDecoration: 'none', color: '#FFCCBC'}}>Recommendations</Link></h2>
-        <p>List of recommendations</p>
+        {/* <h2 style={{margin: '0 0 10px'}}><Link to="/recommendations" style={{textDecoration: 'none', color: '#FFCCBC'}}>Recommendations</Link></h2>
+        <p>List of recommendations</p> */}
       </div>
     </Layout>
     <footer style={{color: '#FFCCBC', bottom: 0, width: '100%', textAlign: 'center', left: 0, position: 'absolute'}}>
