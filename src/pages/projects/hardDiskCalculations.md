@@ -1,6 +1,6 @@
 ---
-slug: "/hdcalculations"
-title: "Hard Disk Calculations"
+slug: "/hddcalculations"
+title: "HDD Calculations"
 date: "2019-03-01"
 description: "React, Javascript, CSS, Styled Components, Netlify"
 ---
