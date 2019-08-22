@@ -47,7 +47,7 @@ exports.createPages = ({ graphql, actions }) => {
   //     })
   // });
 
-  let promise2 = new Promise((resolve, reject) => {
+  let promise = new Promise((resolve, reject) => {
     graphql(`
       {
         allMarkdownRemark(
@@ -76,5 +76,5 @@ exports.createPages = ({ graphql, actions }) => {
     })
   })
 
-  return Promise.all([promise1, promise2])
+  return Promise.all([promise])
 }
