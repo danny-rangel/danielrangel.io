@@ -22,7 +22,7 @@ const Layout = ({ children }) => (
         style={{
           margin: "auto",
           maxWidth: "42rem",
-          padding: "1.3rem",
+          // padding: "1.3rem",
           minHeight: "100vh",
           display: "grid",
           gridTemplateRows: "90px 1fr 100px",
