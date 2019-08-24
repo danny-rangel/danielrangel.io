@@ -13,13 +13,21 @@ Users that are _"listening"_ to you will see your posts pop up on their feed, an
 
 The intent of the app wasn't really so much to be a music player; it's more focused on the sharing aspect. The player was just a side effect as the project developed. Sign up with your Google account and follow me!
 
-<iframe style="
-    height: 500px;
-    width: 100%;
-    border-radius: 4px;
-    border: none;" 
-    src="https://towersmusic.io/dannyrangel">
-</iframe>
+<div 
+    style=
+    "overflow: auto; 
+    -webkit-overflow-scrolling: touch; 
+    width: 100%; 
+    height: 540px;"
+>
+        <iframe style="
+            height: 500px;
+            width: 100%;
+            border-radius: 4px;
+            border: none;" 
+            src="https://towersmusic.io/dannyrangel">
+        </iframe>
+</div>
 
 ---
 
