@@ -15,15 +15,17 @@ The intent of the app wasn't really so much to be a music player; it's more focu
 
 <div 
     style=
-    "width: 100%;
+    "overflow: auto; 
+    -webkit-overflow-scrolling: touch; 
+    width: 100%;
     height: 650px;
     border-radius: 4px;"
 >
         <iframe style="
             width: 100%;
-            height: 100%;
+            height: 600px;
             border-radius: 4px;
-            border: none;" 
+            border: none;"
             src="https://towersmusic.io/dannyrangel">
         </iframe>
 </div>
