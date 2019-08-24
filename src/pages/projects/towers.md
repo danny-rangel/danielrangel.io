@@ -15,8 +15,7 @@ The intent of the app wasn't really so much to be a music player; it's more focu
 
 <div 
     style=
-    "overflow: auto; 
-    width: 100%;
+    "width: 100%;
     height: 650px;
     border-radius: 4px;"
 >
