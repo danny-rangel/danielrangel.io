@@ -3,64 +3,49 @@ import PropTypes from "prop-types"
 import React from "react"
 import styled from "styled-components"
 // import Img from "gatsby-image"
-// import avi from "../images/profilepic.jpg"
 
 const HeaderWrapper = styled.div`
-  margin-bottom: 1.45rem;
+  max-width: 960px;
+  padding: 1rem;
 `
 
-const HeaderContainer = styled.div`
-  margin: 0 auto;
-  max-width: 960;
-  padding: 16px;
-`
+const HeaderContainer = styled.div``
 
 // const AVI_QUERY = graphql`
-// {
-//   file(relativePath: {
-// 		regex: "/profilepic/"
-//   }) {
-// 		childImageSharp {
-// 			fluid(maxWidth: 200) {
-// 				...GatsbyImageSharpFluid
+//   {
+//     file(relativePath: { regex: "/profilepic/" }) {
+//       childImageSharp {
+//         fluid(maxWidth: 200) {
+//           ...GatsbyImageSharpFluid
+//         }
 //       }
 //     }
 //   }
-// }
 // `
 
 const Header = ({ siteTitle }) => (
   <HeaderWrapper>
     <HeaderContainer>
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: 0,
-        }}
-      >
-        {/* <StaticQuery
+      {/* <StaticQuery
           query={AVI_QUERY}
-          render={data => <Img className="aviPhoto" fluid={data.file.childImageSharp.fluid} />}
+          render={data => (
+            <Img className="aviPhoto" fluid={data.file.childImageSharp.fluid} />
+          )}
         /> */}
-        {/* <img className="aviPhoto" alt="avatar" src={avi} ></img> */}
-        <div style={{ display: "inline-block", padding: "0 0 0 1rem" }}>
-          <h2 style={{ margin: 0 }}>
-            <Link
-              to="/"
-              style={{
-                textDecoration: `none`,
-                color: "#FFCCBC",
-              }}
-            >
-              {siteTitle}
-            </Link>
-          </h2>
-          <h5 style={{ color: "#FFCCBC", margin: 0 }}>
-            Creating through code and music
-          </h5>
-        </div>
-      </div>
+      <h2 style={{ margin: 0 }}>
+        <Link
+          to="/"
+          style={{
+            textDecoration: `none`,
+            color: "#FFCCBC",
+          }}
+        >
+          {siteTitle}
+        </Link>
+      </h2>
+      <h5 style={{ color: "#FFCCBC", margin: 0 }}>
+        Creating through code and music
+      </h5>
     </HeaderContainer>
   </HeaderWrapper>
 )
