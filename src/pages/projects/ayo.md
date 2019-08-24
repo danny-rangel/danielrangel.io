@@ -11,13 +11,22 @@ Ayo is a chat application created with React and Firebase. I've been messing aro
 
 Log in on two seperate windows with the demo below and try sending yourself messages!
 
-<iframe style="
-    height: 500px;
-    width: 100%;
-    border-radius: 4px;
-    border: none;" 
-    src="https://ayo-app-6783b.firebaseapp.com">
-</iframe>
+<div 
+    style=
+    "overflow: auto; 
+    -webkit-overflow-scrolling: touch; 
+    width: 100%; 
+    height: 540px;
+    border-radius: 4px;"
+>
+    <iframe style="
+        height: 500px;
+        width: 100%;
+        border-radius: 4px;
+        border: none;" 
+        src="https://ayo-app-6783b.firebaseapp.com">
+    </iframe>
+</div>
 
 ---
 

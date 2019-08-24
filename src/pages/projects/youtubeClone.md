@@ -11,11 +11,21 @@ You guessed it! This project is a YouTube clone. I implemented video searching f
 
 Try searching for your favorite video!
 
-<iframe style="
-    height: 600px;
-    width: 100%;
-    border-radius: 4px;
-    border: none;" src="https://viewtube.netlify.com/"></iframe>
+<div 
+    style=
+    "overflow: auto; 
+    -webkit-overflow-scrolling: touch; 
+    width: 100%; 
+    height: 640px;
+    border-radius: 4px;"
+>
+    <iframe style="
+        height: 600px;
+        width: 100%;
+        border-radius: 4px;
+        border: none;" src="https://viewtube.netlify.com/">
+    </iframe>
+</div>
 
 ---
 
