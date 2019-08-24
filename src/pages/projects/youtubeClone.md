@@ -19,6 +19,6 @@ Try searching for your favorite video!
 
 ---
 
-## [Demo URL](https://lit-reef-94108.herokuapp.com/)
+## [Demo URL](https://viewtube.netlify.com/)
 
 ## [Code](https://github.com/danny-rangel/viewtube)

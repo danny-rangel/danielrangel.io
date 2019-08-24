@@ -23,6 +23,6 @@ read times, etc.
 
 ---
 
-## [Demo URL](https://compassionate-roentgen-56931d.netlify.com/)
+## [Demo URL](https://hddcalculations.netlify.com/)
 
 ## [Code](https://github.com/danny-rangel/hard-disk-calculations)

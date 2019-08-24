@@ -17,6 +17,6 @@ This project was a quick experimentation with the new React Hooks. I'm using [Da
 
 ---
 
-## [Demo URL](https://stormy-plateau-84954.herokuapp.com/)
+## [Demo URL](https://youtubesubcounter.netlify.com/)
 
 ## [Code](https://github.com/danny-rangel/youtubeSubCounter)
