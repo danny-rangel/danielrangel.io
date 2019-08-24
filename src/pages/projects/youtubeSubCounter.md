@@ -14,12 +14,12 @@ This project was a quick experimentation with the new React Hooks. I'm using [Da
     "overflow: auto; 
     -webkit-overflow-scrolling: touch; 
     width: 100%;
-    height: 100%;
+    height: 650px;
     border-radius: 4px;"
 >
     <iframe style="
         width: 100%;
-        height: 100%;
+        height: 600px;
         border-radius: 4px;
         border: none;" src="https://youtubesubcounter.netlify.com">
     </iframe>
