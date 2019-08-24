@@ -24,7 +24,7 @@ const PROJECT_LISTING_QUERY = graphql`
 `
 
 const Project = styled.article`
-  padding: 1rem 0rem;
+  padding: 0rem 0rem 2rem 0rem;
   border-radius: 4px;
   margin: 0;
   a {
