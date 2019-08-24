@@ -11,7 +11,11 @@ const NotFoundPage = () => (
       <h1 style={{ color: "#FFCCBC" }}>Oops...</h1>
       <p>There doesn&#39;t seem to be anything here...yet.</p>
       <div style={{ width: "100%", textAlign: "center" }}>
-        <img src={gif} alt="spongebob" />
+        <img
+          src={gif}
+          style={{ borderRadius: "4px", boxShadow: "0px 1px 2px #292929" }}
+          alt="spongebob"
+        />
       </div>
     </Layout>
   </div>
