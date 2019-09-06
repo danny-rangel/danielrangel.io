@@ -13,11 +13,11 @@ I currently have over 1000 downloads by users of the extension, with the number 
 
 ---
 
-<div style="text-align: center; width: 100%">
+<div style="text-align: center; width: 100%;">
     <img 
         src="https://i.imgur.com/sUQy7O1.png" 
         alt="song requests preview" 
-        style="width: 100%; max-width: 600px"
+        style="width: 100%; max-width: 600px;border-radius: 4px;"
     >
 </div>
 
