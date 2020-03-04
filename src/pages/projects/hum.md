@@ -28,12 +28,12 @@ Building out the backend was a new experience for me. I've built backends using 
             height: 600px;
             border-radius: 4px;
             border: none;"
-            src="https://hum-frontend.com/danny">
+            src="https://hum-frontend.herokuapp.com/danny">
         </iframe>
 </div>
 
 ---
 
-## [hum.com](https://hum-frontend.com/danny)
+## [hum.com](https://hum-frontend.herokuapp.com/danny)
 
 ## [Code](https://github.com/danny-rangel/hum)
