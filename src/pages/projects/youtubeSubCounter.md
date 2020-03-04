@@ -7,6 +7,8 @@ description: "React, Javascript, CSS, Youtube Data API"
 
 ---
 
+NOTE: Youtube has changed what info they return from subscription endpoint, so unfortunately it returns a rounded number. This means the app doesn't work as originally intended with updates every second. However, I still wanted to keep this up for the code and how to go about the implementation.
+
 This project was a quick experimentation with the new React Hooks. I'm using [Dan Abramov's](https://github.com/gaearon) useInterval hook to time the API request every second. My useSubCount hook fetches the data by just supplying a username or channel id for the input. The default sub count is Pewdiepie's, thereby solidifying this as the most millenial application I've made thus far.
 
 <div 
