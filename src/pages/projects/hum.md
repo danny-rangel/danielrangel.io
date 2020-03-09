@@ -30,12 +30,12 @@ The application is running in a Docker container on an EC2 instance. I also used
             height: 600px;
             border-radius: 4px;
             border: none;"
-            src="https://www.thehumapp.com/danny">
+            src="https://www.thehumapp.com/#/danny">
         </iframe>
 </div>
 
 ---
 
-## [hum.com](https://www.thehumapp.com/danny)
+## [hum.com](https://www.thehumapp.com/#/danny)
 
 ## [Code](https://github.com/danny-rangel/hum)
