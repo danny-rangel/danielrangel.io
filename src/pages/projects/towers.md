@@ -13,8 +13,6 @@ Users that are _"listening"_ to you will see your posts pop up on their feed, an
 
 The intent of the app wasn't really so much to be a music player; it's more focused on the sharing aspect. The player was just a side effect as the project developed. Sign up with your Google account and follow me!
 
-Note: Songs won't play within the iframe. You need to go to the actual URL linked below to listen to music.
-
 <div 
     style=
     "overflow: auto; 
