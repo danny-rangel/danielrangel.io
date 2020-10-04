@@ -1,18 +1,17 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import SEO from "../components/seo"
 import Layout from "../components/layout"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h2 style={{ margin: "0 0 10px" }}>
-      <Link to="/projects" style={{ textDecoration: "none", color: "#FFCCBC" }}>
-        Projects
-      </Link>
-    </h2>
-    <p> A collection of some personal projects</p>
+    <h4>software engineer @ google</h4>
+    <h4 style={{ display: "inline-block", margin: "8px" }}>
+      <a href="https://github.com/danny-rangel">github</a>
+    </h4>
+    <h4 style={{ display: "inline-block", margin: "8px" }}>
+      <a href="mailto:hello@danielrangel.io">email</a>
+    </h4>
   </Layout>
 )
 

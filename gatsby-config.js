@@ -1,26 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Daniel Rangel`,
+    title: `daniel rangel`,
     description: ``,
     author: `@danielrangel`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     name: `bookCovers`,
-    //     path: `${__dirname}/src/images/bookCovers`,
-    //   },
-    // },
     `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-sharp`,
@@ -33,27 +19,10 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/favicon.ico`, // This path is relative to the root of the site.
-      },
-    },
-    // {
-    //   resolve: 'gatsby-source-filesystem',
-    //   options: {
-    //     path: `${__dirname}/src/pages/blog`,
-    //     name: 'posts'
-    //   }
-    // },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        path: `${__dirname}/src/pages/projects`,
-        name: "projects",
+        icon: `src/images/favicon.ico`,
       },
     },
     "gatsby-transformer-remark",
     "gatsby-plugin-netlify",
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // 'gatsby-plugin-offline',
   ],
 }

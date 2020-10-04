@@ -1,49 +1,49 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
+import { ThemeProvider } from "styled-components"
+import { GlobalStyles } from "./globalStyles"
+import { lightTheme, darkTheme } from "../themes"
+import { useDarkMode } from "./useDarkMode"
 
 import Header from "./header"
 import Footer from "./footer"
+import Toggle from "./toggle"
 import "./layout.css"
 
-const Layout = ({ children }) => (
-  <StaticQuery
-    query={graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            title
+const Layout = ({ children }) => {
+  const [theme, themeToggler, mountedComponent] = useDarkMode()
+  const themeMode = theme === "light" ? lightTheme : darkTheme
+
+  if (!mountedComponent) return <div />
+
+  return (
+    <StaticQuery
+      query={graphql`
+        query SiteTitleQuery {
+          site {
+            siteMetadata {
+              title
+            }
           }
         }
-      }
-    `}
-    render={data => (
-      <div
-        style={{
-          margin: "auto",
-          maxWidth: "42rem",
-          // padding: "1.3rem",
-          minHeight: "100vh",
-          display: "grid",
-          gridTemplateRows: "90px 1fr 100px",
-          gridTemplateColumns: "1fr",
-        }}
-      >
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <main
-          style={{
-            margin: `0`,
-            maxWidth: 960,
-            padding: `1rem`,
-          }}
-        >
-          {children}
-        </main>
-        <Footer />
-      </div>
-    )}
-  />
-)
+      `}
+      render={data => (
+        <ThemeProvider theme={themeMode}>
+          <>
+            <GlobalStyles />
+            <div className="overlay">
+              <Header siteTitle={data.site.siteMetadata.title} />
+              <Toggle theme={theme} toggleTheme={themeToggler} />
+              <main>{children}</main>
+              <Footer />
+            </div>
+          </>
+        </ThemeProvider>
+      )}
+    />
+  )
+}
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
